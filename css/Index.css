@@ -1,1 +1,22 @@
 
+
+#alinear {
+    text-align: center;
+    margin: 20px auto;
+    width: 840px;
+    padding: 15px;
+    border: 10px medium Red;
+}
+
+#texto {
+  color: chocolate;
+  font: 25px normal;
+    
+}
+#carousel03
+.imgnormalizada img {
+    width: auto;
+    height: 225px;
+    max-height: 225px;
+}
+
