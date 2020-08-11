@@ -1,7 +1,17 @@
+/* navbar */
+
+#first_navbar {
+    background-color: red;
+    height: 20px;
+}
+
+
+/* fin de navbar */
+
 
 /* CSS para texto de ubicacion y productos & servicios */
+
 #alinear {
-    
     margin: 20px auto;
     width: 840px;
     padding: 15px;
@@ -9,19 +19,20 @@
 }
 
 #texto {
-  color: chocolate;
-  font: 25px normal;
-  text-align: center;
-    
+    color: chocolate;
+    font: 25px normal;
+    text-align: center;
 }
+
 #textoCard {
     color: burlywood;
-   font: outline;
+    font: outline;
     text-align: center;
-      
-  }
-  #colorContenedor{
-background-color:gainsboro;
-  }
-/* fin de css de productos & servicios y ubicacion  */
+}
 
+#colorContenedor {
+    background-color: gainsboro;
+}
+
+
+/* fin de css de productos & servicios y ubicacion  */
