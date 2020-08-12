@@ -112,3 +112,63 @@
 
 
 /*fin del carousel principal*/
+
+
+/* footer */
+
+
+/* Sticky footer position and size
+-------------------------------------------------- */
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 300px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 300px;
+    color: white;
+}
+
+
+/* Taller footer on small screens */
+
+@media (max-width: 34em) {
+    body {
+        margin-bottom: 500px;
+    }
+    .footer {
+        height: 500px;
+    }
+}
+
+
+/* Sticky footer style and color
+-------------------------------------------------- */
+
+footer {
+    padding-top: 35px;
+    padding-bottom: 280px;
+    background-color: #0D8E95;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer .form-control {
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+    border: none;
+    resize: none;
+    color: #d1d2d2;
+    padding: 0.7em 1em;
+}
