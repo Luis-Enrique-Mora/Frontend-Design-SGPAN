@@ -173,7 +173,8 @@ footer .form-control {
     padding: 0.7em 1em;
 }
 
-#texvid{
+/* Margenes de arriba y de abajo del texto y video*/
+#Texto-Video{
     margin-top: 60px;
     margin-bottom: 60px;
 }
