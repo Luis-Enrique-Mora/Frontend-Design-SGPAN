@@ -5,6 +5,14 @@
     height: 28px;
 }
 
+.color_texto {
+    color: #774F38;
+}
+
+.donar {
+    background-color: #774F38;
+}
+
 .flota {
     position: absolute;
     width: 83px;
@@ -173,8 +181,10 @@ footer .form-control {
     padding: 0.7em 1em;
 }
 
+
 /* Margenes de arriba y de abajo del texto y video*/
-#Texto-Video{
+
+#Texto-Video {
     margin-top: 60px;
     margin-bottom: 60px;
 }
