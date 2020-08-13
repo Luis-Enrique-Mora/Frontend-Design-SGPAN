@@ -1,4 +1,5 @@
 
+/*Event's carousel js*/
 new Glider(document.querySelector('.glider'), {
     // Mobile-first defaults
     slidesToShow: 1,
@@ -32,3 +33,5 @@ new Glider(document.querySelector('.glider'), {
       }
     ]
   });
+
+  /*Event's carousel js*/
