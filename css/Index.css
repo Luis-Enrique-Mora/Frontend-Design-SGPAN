@@ -5,6 +5,12 @@
     height: 28px;
 }
 
+.fa-phone{
+    -ms-transform: rotate(110deg); /* IE 9 */
+    -webkit-transform: rotate(110deg); /* Chrome, Safari, Opera */
+    transform: rotate(110deg);
+}
+
 nav{
     background-color: #ffffff;
 }
@@ -25,7 +31,9 @@ nav{
     top: -25px;
     left: 30px;
 }
-
+#company-name{
+    color: #774F38;
+}
 #barra {
     height: 30px;
 }
@@ -218,8 +226,8 @@ footer .form-control {
 /* Margenes de arriba y de abajo del texto y video*/
 
 #Texto-Video {
-    margin-top: 60px;
-    margin-bottom: 60px;
+    padding-top: 130px;
+    padding-bottom: 130px;
 }
 /* Margenes de arriba y de abajo del texto y video*/
 
@@ -273,4 +281,12 @@ footer .form-control {
     background-color: #0D8E95;
     color: #ffffff;
 }
+
+.glider-prev, .glider-next{
+    margin-top: 50px;
+}
 /*next events css*/
+
+.contenedor-padre > hr{
+    padding-bottom: 50px;
+}
