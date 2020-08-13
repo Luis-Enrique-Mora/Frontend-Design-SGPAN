@@ -85,6 +85,7 @@
     height: 500px;
     width: 100%;
     align-items: center;
+    text-align: center;
 }
 
 .img-carousel-principal {
@@ -106,6 +107,8 @@
     top: 0;
     right: 0;
     background: rgba(13, 142, 148, 0.4);
+    text-align: center;
+    align-items: center;
 }
 
 .carousel-control-prev,
@@ -114,10 +117,9 @@
 }
 
 .carousel-caption > p {
-    padding-top: 190px;
-    text-align: center;
+    padding-top: 195px;
     font-size: 40px;
-    font-family: 'Amatic SC', cursive;
+    font-family: 'GFS Didot', serif;
 }
 
 
