@@ -5,6 +5,12 @@
     height: 28px;
 }
 
+.fa-phone{
+    -ms-transform: rotate(110deg); /* IE 9 */
+    -webkit-transform: rotate(110deg); /* Chrome, Safari, Opera */
+    transform: rotate(110deg);
+}
+
 nav{
     background-color: #ffffff;
 }
@@ -25,7 +31,9 @@ nav{
     top: -25px;
     left: 30px;
 }
-
+#company-name{
+    color: #774F38;
+}
 #barra {
     height: 30px;
 }
@@ -253,3 +261,7 @@ footer .form-control {
     margin-top: 50px;
 }
 /*next events css*/
+
+.contenedor-padre > hr{
+    padding-bottom: 50px;
+}
