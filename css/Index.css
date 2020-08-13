@@ -262,6 +262,6 @@ footer .form-control {
 }
 /*next events css*/
 
-.contenedor-padre > hr{
-    padding-bottom: 50px;
+#container-product-services > hr{
+    margin-bottom: 100px;
 }
