@@ -248,4 +248,8 @@ footer .form-control {
     background-color: #0D8E95;
     color: #ffffff;
 }
+
+.glider-prev, .glider-next{
+    margin-top: 50px;
+}
 /*next events css*/
