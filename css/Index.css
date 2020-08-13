@@ -48,18 +48,35 @@ nav{
 
 /* CSS para texto de ubicacion y productos & servicios */
 
-#alinear {
+#alinear  {
     margin: 50px auto;
     width: 1200px;
     padding: 20spx;
     border: 10px medium;
-    margin-top: 30px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+#alinearProductos  {
+    margin: 50px auto;
+    width: 1200px;
+    padding: 20spx;
+    border: 10px medium;
+    margin-top: 130px;
+    margin-bottom: 180px;
+    
+}
+#alinearProductos >hr{
+    padding-bottom: 80px;
+    
 }
 
 #texto_Productos {
     color: #707070;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    width: 40px;
+    
 }
 
 #texto {
@@ -75,8 +92,16 @@ nav{
     text-align: center;
 }
 
+#dimesionCard{
+    width: 231px;
+    height:218px;
+    border-radius: 10px;
+    
+    
+}
 #colorContenedor {
-    background-color: gainsboro;
+    background-color:rgba(245,245,245);
+    
 }
 
 
