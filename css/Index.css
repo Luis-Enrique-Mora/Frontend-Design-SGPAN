@@ -82,7 +82,7 @@
 /*inicio carousel principal*/
 
 .carousel-item {
-    height: 400px;
+    height: 500px;
     width: 100%;
     align-items: center;
 }
@@ -114,7 +114,7 @@
 }
 
 .carousel-caption > p {
-    padding-top: 145px;
+    padding-top: 190px;
     text-align: center;
     font-size: 40px;
     font-family: 'Amatic SC', cursive;
