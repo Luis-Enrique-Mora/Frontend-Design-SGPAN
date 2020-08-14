@@ -56,25 +56,35 @@ nav{
 
 /* CSS para texto de ubicacion y productos & servicios */
 
-#alinear {
-    margin: 50px auto;
-    width: 1200px;
-    padding: 20spx;
-    border: 10px medium;
-    margin-top: 30px;
+#container-lotation{
+    width: auto;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    text-align: center;
+}
+
+#container-lotation > hr{
+    margin-bottom: 100px;
+}
+
+#location-title{
+    color: #774F38;
+}
+
+#products-services-list >hr{
+    margin-bottom: 80px;
+}
+
+#products-services-list >h1{
+    text-align: center;
+    color: #774F38;
 }
 
 #texto_Productos {
     color: #707070;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-}
-
-#texto {
-    color: #533422;
-    font-weight: bold;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    width: 40px;
 }
 
 #textoCard {
@@ -83,8 +93,16 @@ nav{
     text-align: center;
 }
 
-#colorContenedor {
-    background-color: gainsboro;
+#dimesionCard{
+    width: 231px;
+    height:218px;
+    border-radius: 10px;
+}
+
+#products-services-container{
+    background-color:rgba(245,245,245);
+    padding-bottom: 120px;
+    padding-top: 120px;
 }
 
 
@@ -201,8 +219,8 @@ footer .form-control {
 /* Margenes de arriba y de abajo del texto y video*/
 
 #Texto-Video {
-    margin-top: 60px;
-    margin-bottom: 60px;
+    padding-top: 130px;
+    padding-bottom: 130px;
 }
 /* Margenes de arriba y de abajo del texto y video*/
 
@@ -225,7 +243,7 @@ footer .form-control {
 }
 
 #next-events >hr{
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .glider-slide{
