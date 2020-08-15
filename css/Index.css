@@ -15,7 +15,7 @@ nav{
     background-color: #ffffff;
 }
 
-.color_texto {
+#navbarSupportedContent > ul>  li> a{
     color: #774F38;
 }
 
@@ -136,7 +136,7 @@ nav{
     bottom: 0;
     top: 0;
     right: 0;
-    background: rgba(13, 142, 148, 0.4);
+    background: rgba(13, 142, 148, 0.25);
     text-align: center;
     align-items: center;
 }
@@ -146,10 +146,8 @@ nav{
     z-index: 10;
 }
 
-.carousel-caption > p {
+.carousel-caption > h1 {
     padding-top: 195px;
-    font-size: 40px;
-    font-family: 'Segoe UI', sans-serif;
 }
 
 

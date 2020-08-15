@@ -98,3 +98,12 @@ footer .form-control {
     margin-top: 60px;
     margin-bottom: 60px;
 }
+
+/*Header three*/
+#header-three{
+    background-color: #89BAB8;
+    height: 90px;
+    width: auto;
+    box-shadow: 0px 10px 20px -10px;
+}
+/* end of header three*/
