@@ -79,7 +79,7 @@ body {
 #map-container{
     width: auto;
     align-items: center;
-    margin-bottom: -6px;
+    margin-bottom: -30px;
     max-height: 500px;
 }
 
