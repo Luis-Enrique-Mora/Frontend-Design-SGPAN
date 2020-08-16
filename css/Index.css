@@ -17,6 +17,7 @@ nav{
 
 #navbarSupportedContent > ul>  li> a{
     color: #774F38;
+    font: weight 100pt;
 }
 
 .donar {
