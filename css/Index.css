@@ -56,6 +56,7 @@ nav{
 
 /* CSS para texto de ubicacion y productos & servicios */
 
+
 #container-lotation{
     width: auto;
     margin-top: 100px;
@@ -65,6 +66,7 @@ nav{
 
 #container-lotation > hr{
     margin-bottom: 100px;
+    
 }
 
 #location-title{
@@ -100,7 +102,8 @@ nav{
 }
 
 #products-services-container{
-    background-color:rgba(245,245,245);
+   
+    background: -webkit-linear-gradient(right, rgba(255, 254, 254, 0.993), rgb(232, 226, 233) , #60C7D4 );
     padding-bottom: 120px;
     padding-top: 120px;
 }
