@@ -8,6 +8,9 @@
 .color_texto {
     color: #774F38;
 }
+#navbarSupportedContent > ul>  li> a{
+    color: #774F38;
+}
 
 .donar {
     background-color: #774F38;
@@ -94,16 +97,27 @@ footer .form-control {
 
 /* Margenes de arriba y de abajo del texto y video*/
 
-#Texto-Video {
-    margin-top: 60px;
-    margin-bottom: 60px;
-}
 
 /*Header three*/
 #header-three{
     background-color: #89BAB8;
     height: 90px;
     width: auto;
-    box-shadow: 0px 10px 20px -10px;
+    box-shadow: 0px 10px 15px -10px;
+    justify-content: flex-start;
 }
+#third-header-title {
+    padding-top: 30px;
+    color: #774F38;
+}
+
+#header-three-content{
+    margin-left: 9.5%;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    #header-three-content {
+      margin-left: -10px;
+    }
+  }
 /* end of header three*/
