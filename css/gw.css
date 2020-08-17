@@ -120,8 +120,8 @@ footer .form-control {
     background-color: #89BAB8;
     height: 90px;
     width: auto;
-    box-shadow: 0px 10px 15px -10px;
     justify-content: flex-start;
+    box-shadow: 0px 10px 15px -10px;
 }
 #third-header-title {
     padding-top: 30px;

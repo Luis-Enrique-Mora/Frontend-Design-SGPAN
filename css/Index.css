@@ -13,11 +13,11 @@
 
 nav{
     background-color: #ffffff;
+    box-shadow: 0px 10px 15px -10px;
 }
 
 #navbarSupportedContent > ul>  li> a{
     color: #774F38;
-    font: weight 100pt;
 }
 
 .donar {
