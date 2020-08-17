@@ -55,17 +55,21 @@ nav{
 /* fin de navbar */
 
 
-/* CSS para texto de ubicacion y productos & servicios */
+/* CSS para texto de ubicacion y productos & servicios 
+*/
 
+/* */
 #container-lotation{
     width: auto;
     margin-top: 100px;
     margin-bottom: 150px;
     text-align: center;
+    
 }
 
 #container-lotation > hr{
     margin-bottom: 100px;
+    
 }
 
 #location-title{
@@ -74,6 +78,7 @@ nav{
 
 #products-services-list >hr{
     margin-bottom: 100px;
+    
 }
 
 #products-services-list >h1{
@@ -92,18 +97,32 @@ nav{
     color: burlywood;
     font: outline;
     text-align: center;
+    
 }
+#dimesion{
+    margin-right: 0px;
+    box-sizing: border-box;
+    display: flex;
+    background-color: #89BAB8;
+    border-radius: 10px;
+    transform: translateY(-25);
+    box-shadow: 0 12px 16px ;
+    transition: all 0.25s;
+} 
 
 #dimesionCard{
     width: 231px;
     height:218px;
-    border-radius: 10px;
 }
 
 #products-services-container{
-    background-color:rgba(245,245,245);
+   
+    background: -webkit-linear-gradient(right, rgba(255, 254, 254, 0.993), rgb(232, 226, 233) , #60C7D4 );
     padding-bottom: 120px;
     padding-top: 120px;
+    overflow: hidden;
+    border-radius: 0px;
+    box-shadow: 0 0px 20px #89BAB8 ;
 }
 
 

@@ -35,3 +35,8 @@ new Glider(document.querySelector('.glider'), {
   });
 
   /*Event's carousel js*/
+
+
+
+  /* productos y servicios */
+ 
