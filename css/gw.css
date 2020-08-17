@@ -79,7 +79,6 @@ body {
 #map-container{
     width: auto;
     align-items: center;
-    margin-bottom: -30px;
     max-height: 500px;
 }
 
@@ -129,12 +128,12 @@ footer .form-control {
 }
 
 #header-three-content{
-    margin-left: 9.5%;
+    margin-left: 9%;
 }
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     #header-three-content {
       margin-left: -10px;
     }
-  }
+}
 /* end of header three*/
