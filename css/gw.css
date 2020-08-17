@@ -75,7 +75,24 @@ body {
 
 /* Sticky footer style and color
 -------------------------------------------------- */
+/*map-container-css*/
+#map-container{
+    width: auto;
+    align-items: center;
+    margin-bottom: -30px;
+    max-height: 500px;
+}
 
+#map-container-fluid{
+    max-height: 500px;
+}
+
+#map-container > img{
+    width: 100%;
+    max-height: 500px;
+
+}
+/*end of map-container-css*/
 footer {
     padding-top: 35px;
     padding-bottom: 280px;
@@ -103,8 +120,8 @@ footer .form-control {
     background-color: #89BAB8;
     height: 90px;
     width: auto;
-    box-shadow: 0px 10px 15px -10px;
     justify-content: flex-start;
+    box-shadow: 0px 10px 15px -10px;
 }
 #third-header-title {
     padding-top: 30px;
