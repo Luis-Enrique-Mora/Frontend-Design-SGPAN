@@ -140,7 +140,22 @@ footer .form-control {
 
 
 /* Inicio texto descriptivo*/
-#texto_mapa{
+#texto_mapa1
+    >h1{
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: #774F38;
+        font-size: 39px ;
+    }
+
+#texto_mapa2
+     >h2{
+    text-align: center;
+    color: #707070;
+    font-size: 14px ;
+     }
+
+#container_texto_mapa{
     width: 900px;
     height: 500px;
 }
