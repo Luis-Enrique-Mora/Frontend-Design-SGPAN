@@ -135,6 +135,39 @@ footer .form-control {
     #header-three-content {
       margin-left: -10px;
     }
+<<<<<<< HEAD
+  }
+/* end of header three*/
+
+/*Carousel*/
+
+#container-activities{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    align-items: center;
+    text-align: center;
+}
+.img-carousel-activities {
+    margin: 60;
+    width: 60%;
+    height: 60%;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    left: 100;
+    bottom: 100;
+    top: 100;
+    right: 100;
+    align-items: center;
+}
+
+.carousel-caption > h1 {
+    padding-top: 95px;
+}
+
+/*
+=======
 }
 /* end of header three*/
 
@@ -164,3 +197,4 @@ footer .form-control {
 
 
 /* fin texto descriptivo*/
+>>>>>>> 63b399f322a0f42154add106ab541bf54e43d342
