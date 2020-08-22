@@ -48,6 +48,10 @@ nav {
     background-color: #774F38;
 }
 
+.donar > p{
+    margin-right:10px;
+}
+
 .flota {
     position: absolute;
     width: 83px;
