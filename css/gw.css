@@ -129,6 +129,10 @@ body {
 #map-container>img {
     width: 100%;
     max-height: 500px;
+<<<<<<< HEAD
+=======
+    margin-bottom: -5px;
+>>>>>>> 460a8957823351fc0867dc91e995aa786cda7a52
 }
 
 
@@ -151,9 +155,6 @@ footer .form-control {
     color: #d1d2d2;
     padding: 0.7em 1em;
 }
-
-
-/* Margenes de arriba y de abajo del texto y video*/
 
 
 /*Header three*/
@@ -180,7 +181,64 @@ footer .form-control {
     #header-three-content {
         margin-left: -10px;
     }
+  }
+/* end of header three*/
+
+/*Carousel*/
+
+#container-activities{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    align-items: center;
+    text-align: center;
+}
+.img-carousel-activities {
+    margin: 60;
+    width: 60%;
+    height: 60%;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    left: 100;
+    bottom: 100;
+    top: 100;
+    right: 100;
+    align-items: center;
+}
+
+<<<<<<< HEAD
+
+/* end of header three*/
+=======
+.carousel-caption > h1 {
+    padding-top: 95px;
+}
+/*fin del carousel*/
+
+/* Inicio texto descriptivo*/
+#texto_mapa1
+    >h1{
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: #774F38;
+        font-size: 39px ;
+    }
+
+#texto_mapa2
+     >h2{
+    text-align: center;
+    color: #707070;
+    font-size: 14px ;
+     }
+
+#container_texto_mapa{
+    width: 900px;
+    height: 500px;
+    background: rgba(245,245,245);
 }
 
 
-/* end of header three*/
+
+/* fin texto descriptivo*/
+>>>>>>> 460a8957823351fc0867dc91e995aa786cda7a52
