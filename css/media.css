@@ -1,11 +1,47 @@
 /* navbar */
 
+.img_donar {
+    width: 20px;
+    height: 15px;
+    position: absolute;
+    z-index: 12;
+    top: 5px;
+    left: 35px;
+}
+
+.bandera {
+    position: absolute;
+    right: 30px;
+}
+
+.bandera {
+    position: absolute;
+    right: 30px;
+}
+
+.phone {
+    margin-left: 225px;
+}
+
 #first_navbar {
     background-color: #0D8E95;
     height: 28px;
 }
 
-.color_texto {
+.fa-phone {
+    -ms-transform: rotate(110deg);
+    /* IE 9 */
+    -webkit-transform: rotate(110deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(110deg);
+}
+
+nav {
+    background-color: #ffffff;
+    box-shadow: 0px 10px 15px -10px;
+}
+
+#navbarSupportedContent>ul>li>a {
     color: #774F38;
 }
 
@@ -17,9 +53,13 @@
     position: absolute;
     width: 83px;
     height: 83px;
-    z-index: 10;
+    z-index: 12;
     top: -25px;
     left: 30px;
+}
+
+#company-name {
+    color: #774F38;
 }
 
 #barra {

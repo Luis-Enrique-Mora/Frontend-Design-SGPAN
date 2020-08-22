@@ -1,22 +1,42 @@
 /* navbar */
 
+.img_donar {
+    width: 20px;
+    height: 15px;
+    position: absolute;
+    z-index: 12;
+    top: 5px;
+    left: 35px;
+}
+
+.bandera {
+    position: absolute;
+    right: 30px;
+}
+
+.phone {
+    margin-left: 225px;
+}
+
 #first_navbar {
     background-color: #0D8E95;
     height: 28px;
 }
 
-.fa-phone{
-    -ms-transform: rotate(110deg); /* IE 9 */
-    -webkit-transform: rotate(110deg); /* Chrome, Safari, Opera */
+.fa-phone {
+    -ms-transform: rotate(110deg);
+    /* IE 9 */
+    -webkit-transform: rotate(110deg);
+    /* Chrome, Safari, Opera */
     transform: rotate(110deg);
 }
 
-nav{
+nav {
     background-color: #ffffff;
     box-shadow: 0px 10px 15px -10px;
 }
 
-#navbarSupportedContent > ul>  li> a{
+#navbarSupportedContent>ul>li>a {
     color: #774F38;
 }
 
@@ -32,9 +52,11 @@ nav{
     top: -25px;
     left: 30px;
 }
-#company-name{
+
+#company-name {
     color: #774F38;
 }
+
 #barra {
     height: 30px;
 }
@@ -58,30 +80,29 @@ nav{
 /* CSS para texto de ubicacion y productos & servicios 
 */
 
+
 /* */
-#container-lotation{
+
+#container-lotation {
     width: auto;
     margin-top: 100px;
     margin-bottom: 150px;
     text-align: center;
-    
 }
 
-#container-lotation > hr{
+#container-lotation>hr {
     margin-bottom: 100px;
-    
 }
 
-#location-title{
+#location-title {
     color: #774F38;
 }
 
-#products-services-list >hr{
+#products-services-list>hr {
     margin-bottom: 100px;
-    
 }
 
-#products-services-list >h1{
+#products-services-list>h1 {
     text-align: center;
     color: #774F38;
 }
@@ -97,32 +118,31 @@ nav{
     color: burlywood;
     font: outline;
     text-align: center;
-    
 }
-#dimesion{
+
+#dimesion {
     margin-right: 0px;
     box-sizing: border-box;
     display: flex;
     background-color: #89BAB8;
     border-radius: 10px;
     transform: translateY(-25);
-    box-shadow: 0 12px 16px ;
+    box-shadow: 0 12px 16px;
     transition: all 0.25s;
-} 
-
-#dimesionCard{
-    width: 231px;
-    height:218px;
 }
 
-#products-services-container{
-   
-    background: -webkit-linear-gradient(right, rgba(255, 254, 254, 0.993), rgb(232, 226, 233) , #60C7D4 );
+#dimesionCard {
+    width: 231px;
+    height: 218px;
+}
+
+#products-services-container {
+    background: -webkit-linear-gradient(right, rgba(255, 254, 254, 0.993), rgb(232, 226, 233), #60C7D4);
     padding-bottom: 120px;
     padding-top: 120px;
     overflow: hidden;
     border-radius: 0px;
-    box-shadow: 0 0px 20px #89BAB8 ;
+    box-shadow: 0 0px 20px #89BAB8;
 }
 
 
@@ -165,7 +185,7 @@ nav{
     z-index: 10;
 }
 
-.carousel-caption > h1 {
+.carousel-caption>h1 {
     padding-top: 195px;
 }
 
@@ -239,64 +259,71 @@ footer .form-control {
     padding-top: 130px;
     padding-bottom: 100px;
 }
+
+
 /* Margenes de arriba y de abajo del texto y video*/
 
+
 /*next events css*/
-.card , .card-body{
+
+.card,
+.card-body {
     align-items: center;
     height: 300px;
     width: auto;
 }
 
-#next-events{
+#next-events {
     padding-top: 100px;
     padding-bottom: 200px;
     align-items: center;
     text-align: center;
 }
 
-#next-events > h1{
+#next-events>h1 {
     color: #774F38;
 }
 
-#next-events >hr{
+#next-events>hr {
     margin-bottom: 50px;
 }
 
-.glider-slide{
+.glider-slide {
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 50px;
     margin-top: 50px;
     border-radius: 10px;
     box-shadow: 0px 10px 20px -10px;
-    transition: 0.4s; 
+    transition: 0.4s;
 }
 
-.glider-slide:hover{
-  transform: scale(1.08, 1.08);
+.glider-slide:hover {
+    transform: scale(1.08, 1.08);
 }
 
-#events-container{
-    background: rgba(245,245,245);
+#events-container {
+    background: rgba(245, 245, 245);
 }
 
-
-.draggable{
+.draggable {
     padding-left: 20px;
     padding-right: 20px;
 }
 
-#btn-event{
+#btn-event {
     background-color: #0D8E95;
     color: #ffffff;
 }
 
-.glider-prev, .glider-next{
+.glider-prev,
+.glider-next {
     margin-top: 50px;
 }
+
+
 /*next events css*/
 
-#container-product-services > hr{
+#container-product-services>hr {
     margin-bottom: 100px;
 }
