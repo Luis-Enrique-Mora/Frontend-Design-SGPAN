@@ -1,14 +1,46 @@
 /* navbar */
 
+.img_donar {
+    width: 20px;
+    height: 15px;
+    position: absolute;
+    z-index: 12;
+    top: 5px;
+    left: 35px;
+}
+
+.bandera {
+    position: absolute;
+    right: 30px;
+}
+
+.bandera {
+    position: absolute;
+    right: 30px;
+}
+
+.phone {
+    margin-left: 225px;
+}
+
 #first_navbar {
     background-color: #0D8E95;
     height: 28px;
 }
 
-.color_texto {
-    color: #774F38;
+.fa-phone {
+    -ms-transform: rotate(110deg);
+    /* IE 9 */
+    -webkit-transform: rotate(110deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(110deg);
 }
-#navbarSupportedContent > ul>  li> a{
+
+nav {
+    background-color: #ffffff;
+}
+
+#navbarSupportedContent>ul>li>a {
     color: #774F38;
 }
 
@@ -16,13 +48,21 @@
     background-color: #774F38;
 }
 
+.donar > p{
+    margin-right:10px;
+}
+
 .flota {
     position: absolute;
     width: 83px;
     height: 83px;
-    z-index: 10;
+    z-index: 12;
     top: -25px;
     left: 30px;
+}
+
+#company-name {
+    color: #774F38;
 }
 
 #barra {
@@ -75,23 +115,29 @@ body {
 
 /* Sticky footer style and color
 -------------------------------------------------- */
+
+
 /*map-container-css*/
-#map-container{
+
+#map-container {
     width: auto;
     align-items: center;
     max-height: 500px;
 }
 
-#map-container-fluid{
+#map-container-fluid {
     max-height: 500px;
 }
 
-#map-container > img{
+#map-container>img {
     width: 100%;
     max-height: 500px;
-
+    margin-bottom: -5px;
 }
+
+
 /*end of map-container-css*/
+
 footer {
     padding-top: 35px;
     padding-bottom: 280px;
@@ -111,33 +157,62 @@ footer .form-control {
 }
 
 
-/* Margenes de arriba y de abajo del texto y video*/
-
-
 /*Header three*/
-#header-three{
+
+#header-three {
     background-color: #89BAB8;
     height: 90px;
     width: auto;
     justify-content: flex-start;
     box-shadow: 0px 10px 15px -10px;
 }
+
 #third-header-title {
     padding-top: 30px;
     color: #774F38;
 }
 
-#header-three-content{
+#header-three-content {
     margin-left: 9%;
 }
+
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     #header-three-content {
-      margin-left: -10px;
+        margin-left: -10px;
     }
-}
+  }
 /* end of header three*/
 
+/*Carousel*/
+
+#container-activities{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    align-items: center;
+    text-align: center;
+}
+.img-carousel-activities {
+    margin: 60;
+    width: 60%;
+    height: 60%;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    left: 100;
+    bottom: 100;
+    top: 100;
+    right: 100;
+    align-items: center;
+}
+
+
+/* end of header three*/
+.carousel-caption > h1 {
+    padding-top: 95px;
+}
+/*fin del carousel*/
 
 /* Inicio texto descriptivo*/
 #texto_mapa1
@@ -145,21 +220,20 @@ footer .form-control {
         text-align: center;
         font-family: Georgia, 'Times New Roman', Times, serif;
         color: #774F38;
-        font-size: 39px ;
+        font-size: 30px ;
     }
 
 #texto_mapa2
      >h2{
     text-align: center;
     color: #707070;
-     font-size: 14px ;
+     font-size: 10px ;
      }
 
 #container_texto_mapa{
-    width: 900px;
+    width: auto;
     height: 500px;
+    background: rgba(245,245,245);;
 }
-
-
 
 /* fin texto descriptivo*/

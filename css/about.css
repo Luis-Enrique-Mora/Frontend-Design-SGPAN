@@ -1,5 +1,27 @@
 /* navbar */
 
+.prueba {
+    z-index: 1;
+    position: absolute;
+    height: 83px;
+    width: 83px;
+    margin-top: -22px;
+}
+
+.img_donar {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    z-index: 12;
+    top: 5px;
+    left: 35px;
+}
+
+.bandera {
+    position: absolute;
+    right: 30px;
+}
+
 #first_navbar {
     background-color: #0D8E95;
     height: 28px;
@@ -13,17 +35,33 @@
     background-color: #774F38;
 }
 
+.flotante {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 83px;
+    height: 83px;
+    z-index: 10;
+    top: -25px;
+    left: 820px;
+    margin-top: 225px;
+}
+
 .flota {
     position: absolute;
     width: 83px;
     height: 83px;
-    z-index: 10;
+    z-index: 12;
     top: -25px;
     left: 30px;
 }
 
 #barra {
     height: 30px;
+}
+
+.phone {
+    margin-left: 220px;
 }
 
 @media (min-width: 0px) {
@@ -36,14 +74,6 @@
     .disableWidth720 {
         display: block !important;
     }
-}
-
-.margen {
-    margin-bottom: 400px;
-}
-
-.prueba {
-    margin-left: 50px;
 }
 
 html {
@@ -74,6 +104,30 @@ body {
     }
     .footer {
         height: 500px;
+    }
+}
+
+#header-three {
+    background-color: #89BAB8;
+    height: 90px;
+    width: auto;
+    justify-content: flex-start;
+    box-shadow: 0px 10px 15px -10px;
+}
+
+#third-header-title {
+    padding-top: 30px;
+    color: #774F38;
+}
+
+#header-three-content {
+    margin-left: 9%;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    #header-three-content {
+        margin-left: -10px;
     }
 }
 
