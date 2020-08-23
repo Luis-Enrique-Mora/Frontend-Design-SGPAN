@@ -132,7 +132,7 @@ body {
 #map-container>img {
     width: 100%;
     max-height: 500px;
-    margin-bottom: -5px;
+    margin-bottom: -23px;
 }
 
 
@@ -232,7 +232,7 @@ footer .form-control {
 
 #container_texto_mapa{
     width: auto;
-    height: 150px;
+    height: 500px;
     background: rgba(245,245,245);;
 }
 
