@@ -153,7 +153,7 @@ footer .form-control {
   }
 
   .gallery-top {
-    height: 66%;
+    height: 68%;
     width: 100%;
   }
 
@@ -172,3 +172,17 @@ footer .form-control {
     opacity: 1;
   }
 /*end of carousel css*/
+
+/*bees for trees text content*/
+#BFT-text{
+    margin-left: 8%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: larger;
+}
+
+#BFT-text > h1{
+    color: #774F38;
+}
+/*end bees for trees text conten*/
