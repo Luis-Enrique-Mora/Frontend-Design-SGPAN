@@ -90,6 +90,7 @@ nav {
     text-align: center;
     position: relative;
 }
+
 #map-responsive{
     overflow:hidden;
     padding-bottom:56.25%;
@@ -103,10 +104,20 @@ nav {
     width:100%;
     position:absolute;
 }
-     
-    
-      
-
+@media only screen and (max-width: 900px) {
+    /* For mobile phones: */
+    #map-responsive {
+        margin-left: auto;
+        margin-right: auto;
+        min-width:  100px;
+        min-height: 100px;   
+        height:auto ;
+        width: auto;
+        margin-top: auto;
+        
+    }
+  }
+  
 
 #container-lotation>hr {
     margin-bottom: 100px;
@@ -149,10 +160,22 @@ nav {
     transition: all 0.25s;
 }
 
+
 #dimesionCard {
-    width: 231px;
-    height: 218px;
+    width: 250px;
+    height: 220px;
 }
+@media only screen and (min-width: 100px) {
+    /* For mobile phones: */
+    #dimesionCard {
+        
+        width: 205px;
+        height: 200px;
+        
+        
+    }
+  }
+
 
 #products-services-container {
     background: -webkit-linear-gradient(right, rgba(255, 254, 254, 0.993), rgb(232, 226, 233), #60C7D4);
