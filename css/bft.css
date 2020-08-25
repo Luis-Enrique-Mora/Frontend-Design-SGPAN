@@ -37,7 +37,6 @@ body {
 
 nav {
     background-color: #ffffff;
-    box-shadow: 0px 10px 15px -10px;
 }
 
 #navbarSupportedContent>ul>li>a {
@@ -108,7 +107,24 @@ body {
     }
 }
 
+/*third header css*/
+#header-three {
+    background-color: #89BAB8;
+    height: 90px;
+    width: auto;
+    justify-content: flex-start;
+    box-shadow: 0px 10px 15px -10px;
+}
 
+#third-header-title {
+    padding-top: 30px;
+    color: #774F38;
+}
+
+#header-three-content {
+    margin-left: 9%;
+}
+/*third header css*/
 /* Sticky footer style and color
 -------------------------------------------------- */
 
@@ -153,7 +169,7 @@ footer .form-control {
   }
 
   .gallery-top {
-    height: 68%;
+    height: 70%;
     width: 100%;
   }
 
