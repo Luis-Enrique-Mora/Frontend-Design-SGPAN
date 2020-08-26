@@ -21,67 +21,70 @@
 
     <header>
 
-        <div id="first_navbar" class="d-none d-xl-block">
-            <div class="row">
-                <div class="col-9 text-left ">
-                    <p class="text-white phone"><i class="fas fa-phone"></i> (+506) 1234-5678&nbsp;&nbsp; <i class="fas fa-envelope"></i> info@guanacastewatercenter.com</p>
-
-                </div>
-                <div class="col-1 text-right donar">
-
-                    <p class="text-white"><i class="fas fa-hand-holding-usd">&nbsp;</i>Donar</p>
-                </div>
-                <div class="col-1 text-center">
-                    <p class="text-white"><i class="fas fa-sign-in-alt"></i> Login</p>
-                </div>
-                <div class="col-1 text-right bandera">
-                    <img class="rounded-circle" src="img/bandera.png" alt=" " height="20px" width="20px"><i class="fas fa-chevron-down text-light ml-1 "></i>
-                </div>
+        <div id="first-nav-container" class="row">
+            <div id="refill-left"></div>
+            <div id="nav-phone">
+                <p id="nav-text"> <i class="fas fa-phone"></i> (+506) 1234-5678</p>
             </div>
+
+            <div id="nav-email">
+                <p id="nav-text"> <i class="fas fa-envelope"></i> info@guanacastewatercenter.com</p>
+            </div>  
+            
+            <div id="refill-center"></div>
+
+            <div id="nav-donate">
+                <p id="nav-text"> <i class="fas fa-hand-holding-usd"></i> Donate</p>
+            </div>
+
+            <div id="nav-login">
+                <p id="nav-text"> <i class="fas fa-sign-in-alt"></i> Login</p>
+            </div>
+            <div id="refill-right"></div>
         </div>
 
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light ">
-            <div class="container ">
-                <a class="navbar-brand " href="Index.html">
-                    <div class="row ">
-                        <div class="col ">
-                            <img src="img/7.png " width="30 " height="30 " class="flota d-inline-block align-top disableWidth720 " alt=" ">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="Index.html">
+                    <div class="row">
+                        <div class="col">
+                            <img src="img/7.png" width="30" height="30" class="flota d-inline-block align-top disableWidth720" alt="">
                         </div>
-                        <div class="col-12 col-md-8 ">
+                        <div class="col-12 col-md-8">
                             &nbsp;Guanacaste Water Center
                         </div>
                     </div>
                 </a>
-                <button class="navbar-toggler " type="button " data-toggle="collapse " data-target="#navbarSupportedContent " aria-controls="navbarSupportedContent " aria-expanded="false " aria-label="Toggle navigation ">
-                    <span class="navbar-toggler-icon "></span>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
                   </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active dropdown">
-                            <a routerLinkActive="active" class="nav-link dropdown-toggle color_texto" routerLink="/ " id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a routerLinkActive="active" class="nav-link dropdown-toggle color_texto" routerLink="/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Asociacion Nandamojo
                         </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item color_texto" routerLink="/ " href="aboutUs.html ">About us</a>
+                                <a class="dropdown-item color_texto" routerLink="/" href="aboutUs.html">About us</a>
                                 <hr>
-                                <a class="dropdown-item color_texto " routerLink="/ " href="gw.html ">Guanacaste Watershed</a>
+                                <a class="dropdown-item color_texto" routerLink="/" href="gw.html">Guanacaste Watershed</a>
                             </div>
                         </li>
 
 
                         <li class="nav-item active">
-                            <a class="nav-link color_texto" routerLinkActive="active" routerLink="/ " href="bft.html ">Bees for Threes</a>
+                            <a class="nav-link color_texto" routerLinkActive="active" routerLink="/" href="bft.html">Bees for Threes</a>
                         </li>
 
                         <li class="nav-item active">
-                            <a class="nav-link color_texto" routerLinkActive="active" routerLink="/ " href="eventos.html ">Eventos</a>
+                            <a class="nav-link color_texto" routerLinkActive="active" routerLink="/" href="eventos.html">Eventos</a>
                         </li>
 
                         <li class="nav-item active">
-                            <a class="nav-link color_texto" routerLinkActive="active" routerLink="/ " href="media.html ">Media</a>
+                            <a class="nav-link color_texto" routerLinkActive="active" routerLink="/" href="media.html">Media</a>
                         </li>
 
                     </ul>
@@ -125,8 +128,8 @@
 
   <!--bees-for-trees text-content-->
   <div id="BFT-text-content" class="container-fluid">
-      <div id="BFT-text" class="col-10">
-          <h1>Beef for trees</h1>
+      <div id="BFT-text" class="container col-10">
+          <h1>¿Qué es Beef for trees?</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui temporibus sunt, 
               at optio, ex vero facilis repudiandae totam blanditiis error voluptatum, 
               obcaecati amet? Officiis consequuntur iste atque tenetur aspernatur 
@@ -140,42 +143,64 @@
            </p>
       </div>
   </div>
-  <!--Endo of bees-for-trees text-content-->
+  <!--End of bees-for-trees text-content-->
 
-    <footer class="footer ">
-        <div class="container ">
-            <div class="row ">
-                <div class="col-md-5 ">
+  <!--bees for trees affiliates-->
+  <div id="affiliates-secction" class="container-fluid">
+      <div id="affiliates-container" class="container col-10">
+          <h1 class="text-center">Afiliados</h1>
+          <hr color="#774F38">
+        <div class="card text-center">
+            <div class="card-header">
+              Featured
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+            <div class="card-footer text-muted">
+              2 days ago
+            </div>
+        </div>
+      </div>
+  </div>
+  <!--End of bees for trees affiliates-->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
                     <h5>Contact us</h5>
-                    <ul class="list-unstyled ">
+                    <ul class="list-unstyled">
                         <li>
-                            <p><i class="fas fa-phone fa-1x mr-2 "></i>&nbsp;(+506) 1234-5678</p>
+                            <p><i class="fas fa-phone fa-1x mr-2"></i>&nbsp;(+506) 1234-5678</p>
                         </li>
                         <li>
-                            <p><i class="fas fa-envelope fa-1x mr-2 "></i>&nbsp;email@email.com</p>
+                            <p><i class="fas fa-envelope fa-1x mr-2"></i>&nbsp;email@email.com</p>
                         </li>
                         <li>
-                            <p><i class="fab fa-facebook-f fa-1x mr-2 "></i>&nbsp;Facebook</p>
+                            <p><i class="fab fa-facebook-f fa-1x mr-2"></i>&nbsp;Facebook</p>
                         </li>
                         <li>
-                            <p><i class="fab fa-instagram fa-1x mr-2 "></i>Instagram</p>
+                            <p><i class="fab fa-instagram fa-1x mr-2"></i>Instagram</p>
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-2 ">
+                <div class="col-md-2">
                 </div>
-                <div class="col-md-5 ">
+                <div class="col-md-5">
                     <form>
-                        <fieldset class="form-group ">
+                        <fieldset class="form-group">
                             <h5>NewsLetter</h5>
                             <p>Enter yout email we'll sentd yout more information</p>
-                            <!-- <input type="email " class="form-control " id="exampleInputEmail1 " placeholder="Enter email "> -->
+                            <!-- <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email"> -->
                         </fieldset>
-                        <fieldset class="form-group ">
-                            <input type="text " class="form-control " placeholder="Your Email ">
+                        <fieldset class="form-group">
+                            <input type="text" class="form-control" placeholder="Your Email">
                         </fieldset>
-                        <fieldset class="form-group text-xs-right ">
-                            <button type="button " class="btn btn-success btn-block ">Send</button>
+                        <fieldset class="form-group text-xs-right">
+                            <button type="button" class="btn btn-success btn-block">Send</button>
                         </fieldset>
                     </form>
                 </div>
@@ -183,7 +208,7 @@
         </div>
 
         <!-- Copyright -->
-        <div class="footer-copyright text-center py-3 mt-3 ">© 2020 Copyright:
+        <div class="footer-copyright text-center py-3 mt-3">© 2020 Copyright:
             <a> Guanacaste Water Center</a>
         </div>
         <!-- Copyright -->
