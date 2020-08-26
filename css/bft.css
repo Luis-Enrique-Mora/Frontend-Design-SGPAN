@@ -430,3 +430,12 @@ body {
     background-color: gray;
     
   }
+  #negocio_Aliadas>hr {
+    margin-bottom: 100px;
+}
+
+#negocio_Aliadas>h1 {
+    text-align: center;
+    color: #774F38;
+}
+/* fin negocios aliados */
