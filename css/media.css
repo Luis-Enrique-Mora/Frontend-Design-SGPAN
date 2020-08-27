@@ -194,4 +194,10 @@ body {
     background-position: center;
     border-radius: 7px;
   }
+
+  .swiper-zoom-container{
+    background-size: cover;
+    background-position: center;
+    border-radius: 7px;
+  }
 /*End of images gallery css*/

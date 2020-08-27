@@ -6,6 +6,10 @@ var swiper = new Swiper('.swiper-container', {
       clickable: true,
     },
 
+    zoom: {
+      maxRatio: 5
+    },
+
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',

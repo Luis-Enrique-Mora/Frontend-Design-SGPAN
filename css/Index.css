@@ -339,8 +339,6 @@ footer .form-control {
 }
 
 .glider-slide {
-    margin-left: 20px;
-    margin-right: 20px;
     margin-bottom: 50px;
     margin-top: 50px;
     border-radius: 10px;
@@ -348,9 +346,36 @@ footer .form-control {
     transition: 0.4s;
 }
 
-.glider-slide:hover {
-    transform: scale(1.08, 1.08);
-}
+@media only screen and (min-width: 375px) {
+    .glider-slide {
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+
+    .glider-slide:hover {
+        transform: scale(1.04, 1.04);
+    }
+
+  }
+
+  @media only screen and (min-width: 700px) {
+    .glider-slide {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    }
+
+  @media only screen and (min-width: 900px) {
+    .glider-slide {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .glider-slide:hover {
+        transform: scale(1.08, 1.08);
+    }
+  }
 
 #events-container {
     background: rgba(245, 245, 245);
