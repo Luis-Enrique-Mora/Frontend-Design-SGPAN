@@ -143,14 +143,6 @@ footer .form-control {
     padding: 0.7em 1em;
 }
 
-
-/* Margenes de arriba y de abajo del texto y video*/
-
-#Texto-Video {
-    margin-top: 60px;
-    margin-bottom: 60px;
-}
-
 /*images gallery*/
 html,
 body {
@@ -196,4 +188,10 @@ body {
   -webkit-align-items: center;
   align-items: center;
 }
+
+.swiper-slide {
+    background-size: cover;
+    background-position: center;
+    border-radius: 7px;
+  }
 /*End of images gallery css*/
