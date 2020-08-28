@@ -3,7 +3,7 @@ var swiper = new Swiper('.s2', {
   effect: 'coverflow',
   grabCursor: true,
   centeredSlides: true,
-  slidesPerView: '3',
+  slidesPerView: '4',
   coverflowEffect: {
     rotate: 50,
     stretch: 0,

@@ -149,17 +149,27 @@ footer .form-control {
     padding-bottom: 50px;
     margin-bottom: 100px;
     margin-top: 100px;
-  }
+}
 
-  .ss2 {
-    background-position: center;
-    background-size: cover;
-    width: auto;
-    height: 400px;
+@media (min-width: 300px) {
+    iframe {
+        width: 400px;
+        height: 300px;
+        border-radius: 7px;
+    }
+}
 
-  }
 /*End of video gallery*/
 
+/*titles*/
+#titles{
+    margin-top: 50px;
+    color: #774F38;
+}
+hr{
+    color: #774F38;
+}
+/*End of titles*/
 
 /*images gallery*/
 html,
