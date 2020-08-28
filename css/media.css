@@ -145,16 +145,26 @@ footer .form-control {
 /*video gallery*/
 .s2 {
     width: 100%;
-    padding-top: 50px;
     padding-bottom: 50px;
-    margin-bottom: 100px;
-    margin-top: 100px;
+    padding-top: 50px;
 }
 
-@media (min-width: 300px) {
+#videos-section{
+    background-color: rgb(255, 255, 255);
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+@media (min-width: 480px) {
     iframe {
         width: 400px;
         height: 300px;
+        border-radius: 7px;
+    }
+}
+@media (min-width: 320px) {
+    iframe {
+        width: 345px;
+        height: 250px;
         border-radius: 7px;
     }
 }
@@ -163,7 +173,7 @@ footer .form-control {
 
 /*titles*/
 #titles{
-    margin-top: 50px;
+
     color: #774F38;
 }
 hr{
@@ -176,15 +186,7 @@ html,
 body {
   position: relative;
   height: 100%;
-}
-
-body {
-  background: rgb(245, 245, 245);
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  color: #000;
-  margin: 0;
-  padding: 0;
+  background-color: rgb(245, 245, 245);
 }
 
 .s1 {
@@ -193,7 +195,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 
 .ss1 {

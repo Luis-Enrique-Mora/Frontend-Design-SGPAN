@@ -3,7 +3,6 @@ var swiper = new Swiper('.s2', {
   effect: 'coverflow',
   grabCursor: true,
   centeredSlides: true,
-  slidesPerView: '4',
   coverflowEffect: {
     rotate: 50,
     stretch: 0,
@@ -17,7 +16,27 @@ var swiper = new Swiper('.s2', {
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
+  },
+  breakpoints: {
+    // when window width is >= 320px
+    320: {
+      slidesPerView: 1,
+    },
+    // when window width is >= 480px
+    480: {
+      slidesPerView: 2,
+    },
+    // when window width is >= 640px
+    640: {
+      slidesPerView: 3,
+    },
+
+    800: {
+      slidesPerView: 4,
+    }
   }
+
+  
 });
 /*Endo of video gallery*/
 
