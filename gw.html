@@ -37,12 +37,9 @@
                 <div class="col-1 text-center">
                     <p class="text-white"><i class="fas fa-sign-in-alt"></i> Login</p>
                 </div>
-                <div class="col-1 text-right bandera">
-                    <img class="rounded-circle" src="img/bandera.png" alt=" " height="20px" width="20px"><i class="fas fa-chevron-down text-light ml-1 "></i>
-                </div>
             </div>
         </div>
-    
+
 
         <nav class="navbar navbar-expand-lg navbar-light bg-light ">
             <div class="container ">
@@ -86,6 +83,18 @@
                         <li class="nav-item active">
                             <a class="nav-link color_texto" routerLinkActive="active" routerLink="/ " href="media.html ">Media</a>
                         </li>
+
+                        <li class="nav-item boton_nav">
+                            <div class="btn-group boton_nav">
+                                <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  En   <img class="rounded-circle" src="img/bandera.png" alt=" " height="20px" width="20px">
+                                </button>
+                                <div class="dropdown-menu ">
+                                    <a class="dropdown-item" href="#">Es   <img class="rounded-circle" src="img/banderaEs.png" alt=" " height="20px" width="20px"></a>
+                                </div>
+                            </div>
+                        </li>
+
                     </ul>
 
                 </div>
@@ -108,138 +117,141 @@
 
     <!---------------inicio Texto descriptivo--------------------------------->
     <div id="container_texto_mapa" class="container-fluid">
-       <div id="texto_mapa1" class="container">
-           <hr>
-          <h1>Ubicacion Asociación Nandamojo en la Provincia de Guanacaste</h1>
-       </div>
-        
+        <div id="texto_mapa1" class="container">
+            <hr>
+            <h1>Ubicacion Asociación Nandamojo en la Provincia de Guanacaste</h1>
+        </div>
 
-         <div id="texto_mapa2" class="text">
+
+        <div id="texto_mapa2" class="text">
             <h2>Se encuentra ubicada en: Guanacaste Water Center, 1 km este de la plaza de deportes de Paraíso Guanacaste Paraíso, Santa Cruz</h2>
-         </div>
+        </div>
     </div>
     <!--------------- fin Texto descriptivo--------------------------------->
-    
-<!--Inicio del carrusel-->
-   <div id="Environmental-program-container" class="container-fluid">
-            <div id="carousel-programas" class="container col-10">
-                <h1>Actividades</h1>
-        <hr color="#774F38">
 
-        <div id="carousel-programas" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-            <ol class="carousel-indicators">
-                <li data-target="#carousel-programas" data-slide-to="0" class="active"></li>
-                <li data-target="#carousel-programas" data-slide-to="1"></li>
-                <li data-target="#carousel-programas" data-slide-to="2"></li>
-            </ol>
-    
-            <div class="carousel-inner">
-    
-                <div class="carousel-item active"> <a href=""> 
-                    <img src="img/1.jpg " class="img-carousel-programas" alt="...">
-    
-                    <div class="carousel-caption">
-                        <h1 class="col-10 offset-1">Nombre del programa</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipi.</p>
-                        
+    <!--Inicio del carrusel-->
+    <div id="Environmental-program-container" class="container-fluid">
+        <div id="carousel-programas" class="container col-10">
+            <h1>Actividades</h1>
+            <hr color="#774F38">
+
+            <div id="carousel-programas" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-programas" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-programas" data-slide-to="1"></li>
+                        <li data-target="#carousel-programas" data-slide-to="2"></li>
+                    </ol>
+
+                    <div class="carousel-inner">
+
+                        <div class="carousel-item active">
+                            <a href="">
+                                <img src="img/1.jpg " class="img-carousel-programas" alt="...">
+
+                                <div class="carousel-caption">
+                                    <h1 class="col-10 offset-1">Nombre del programa</h1>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipi.</p>
+
+                                </div>
+
+                        </div>
+
+                        <div class="carousel-item">
+                            <a href="">
+
+                                <img src="img/2.jpg" class="img-carousel-programas" alt="...">
+
+                                <div class="carousel-caption">
+                                    <h1 class="col-10 offset-1">Nombre del programa.</h1>
+                                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                                </div>
+
+                        </div>
+
+
+                        <div class="carousel-item">
+                            <a href="">
+                                <img src="img/3.jpg" class="img-carousel-programas" alt="...">
+
+                                <div class="carousel-caption">
+                                    <h1 class="col-10 offset-1">Nombre del programa.</h1>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                        </div>
                     </div>
-                    
-                </div>
-    
-                <div class="carousel-item"><a href=""> 
 
-                    <img src="img/2.jpg" class="img-carousel-programas" alt="...">
-    
-                    <div class="carousel-caption">
-                        <h1 class="col-10 offset-1">Nombre del programa.</h1>
-                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> 
 
-                    </div>
-    
-                </div>
-            
-    
-                <div class="carousel-item"><a href=""> 
-                    <img src="img/3.jpg" class="img-carousel-programas" alt="...">
-    
-                    <div class="carousel-caption">
-                        <h1 class="col-10 offset-1">Nombre del programa.</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>   
-                    </div>
-                </div>
-            </div>
-        
+                    <a class="carousel-control-prev" href="#carousel-programas" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
 
-            <a class="carousel-control-prev" href="#carousel-programas" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-    
-            <a class="carousel-control-next" href="#carousel-programas" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-    
-        </div>
-            </div>
-            </div>
+                    <a class="carousel-control-next" href="#carousel-programas" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
 
-    <!--Fin de Carrusel-->
-    <footer class="footer ">
-        <div class="container ">
-            <div class="row ">
-                <div class="col-md-5 ">
-                    <h5>Contact us</h5>
-                    <ul class="list-unstyled ">
-                        <li>
-                            <p><i class="fas fa-phone fa-1x mr-2 "></i>&nbsp;(+506) 1234-5678</p>
-                        </li>
-                        <li>
-                            <p><i class="fas fa-envelope fa-1x mr-2 "></i>&nbsp;email@email.com</p>
-                        </li>
-                        <li>
-                            <p><i class="fab fa-facebook-f fa-1x mr-2 "></i>&nbsp;Facebook</p>
-                        </li>
-                        <li>
-                            <p><i class="fab fa-instagram fa-1x mr-2 "></i>Instagram</p>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-2 ">
-                </div>
-                <div class="col-md-5 ">
-                    <form>
-                        <fieldset class="form-group ">
-                            <h5>NewsLetter</h5>
-                            <p>Enter yout email we'll sentd yout more information</p>
-                            <!-- <input type="email " class="form-control " id="exampleInputEmail1 " placeholder="Enter email "> -->
-                        </fieldset>
-                        <fieldset class="form-group ">
-                            <input type="text " class="form-control " placeholder="Your Email ">
-                        </fieldset>
-                        <fieldset class="form-group text-xs-right ">
-                            <button type="button " class="btn btn-success btn-block ">Send</button>
-                        </fieldset>
-                    </form>
                 </div>
             </div>
         </div>
 
-        <!-- Copyright -->
-        <div class="footer-copyright text-center py-3 mt-3 ">© 2020 Copyright:
-            <a> Guanacaste Water Center</a>
-        </div>
-        <!-- Copyright -->
+        <!--Fin de Carrusel-->
+        <footer class="footer ">
+            <div class="container ">
+                <div class="row ">
+                    <div class="col-md-5 ">
+                        <h5>Contact us</h5>
+                        <ul class="list-unstyled ">
+                            <li>
+                                <p><i class="fas fa-phone fa-1x mr-2 "></i>&nbsp;(+506) 1234-5678</p>
+                            </li>
+                            <li>
+                                <p><i class="fas fa-envelope fa-1x mr-2 "></i>&nbsp;email@email.com</p>
+                            </li>
+                            <li>
+                                <p><i class="fab fa-facebook-f fa-1x mr-2 "></i>&nbsp;Facebook</p>
+                            </li>
+                            <li>
+                                <p><i class="fab fa-instagram fa-1x mr-2 "></i>Instagram</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 ">
+                    </div>
+                    <div class="col-md-5 ">
+                        <form>
+                            <fieldset class="form-group ">
+                                <h5>NewsLetter</h5>
+                                <p>Enter yout email we'll sentd yout more information</p>
+                                <!-- <input type="email " class="form-control " id="exampleInputEmail1 " placeholder="Enter email "> -->
+                            </fieldset>
+                            <fieldset class="form-group ">
+                                <input type="text " class="form-control " placeholder="Your Email ">
+                            </fieldset>
+                            <fieldset class="form-group text-xs-right ">
+                                <button type="button " class="btn btn-success btn-block ">Send</button>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </div>
 
-    </footer>
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3 mt-3 ">© 2020 Copyright:
+                <a> Guanacaste Water Center</a>
+            </div>
+            <!-- Copyright -->
+
+        </footer>
 
 
 
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 
 </html>
