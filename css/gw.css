@@ -189,14 +189,23 @@ footer .form-control {
 
 /*Carousel*/
 
-#carousel-programas {
+#container-programas> h1{
+    text-align: center;
+} 
+ 
+.img-carousel-programas {
+    margin: 50;
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+}
+#carousel-programas{
     padding-top: 10px;
     padding-bottom: 150px;
-    color: olivedrab;
+
     align-items: center;
     text-align: center;
 }
-
 .img-carousel-programas {
     margin: 50;
     width: 50%;
@@ -213,6 +222,13 @@ footer .form-control {
     font-family: Verdana, 'Geneva', Tahoma, sans-serif;
     text-align: center;
     align-items: bottom;
+    
+}
+
+
+
+.carousel-caption > h1 {
+    padding-top: 55px;
 }
 
 
