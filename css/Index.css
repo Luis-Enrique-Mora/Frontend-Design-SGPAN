@@ -85,10 +85,11 @@ nav {
 
 #container-lotation {
     width: auto;
-    margin-top: 100px;
-    margin-bottom: 150px;
+    margin-top: 20px;
+    margin-bottom: 15px;
     text-align: center;
     position: relative;
+    height: 490px;
 }
 
 #map-responsive {
@@ -120,7 +121,7 @@ nav {
 }
 
 #container-lotation>hr {
-    margin-bottom: 100px;
+    margin-bottom: 30px;
 }
 
 #location-title {
@@ -128,7 +129,7 @@ nav {
 }
 
 #products-services-list>hr {
-    margin-bottom: 100px;
+    margin-bottom: 30px;
 }
 
 #products-services-list>h1 {
@@ -183,8 +184,8 @@ h6 {
 
 #products-services-container {
     background: -webkit-linear-gradient(right, rgba(255, 254, 254, 0.993), rgb(232, 226, 233), #60C7D4);
-    padding-bottom: 120px;
-    padding-top: 120px;
+    padding-bottom: 50px;
+    padding-top: 80px;
     overflow: hidden;
     border-radius: 0px;
     box-shadow: 0 0px 20px #89BAB8;
