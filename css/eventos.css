@@ -1,14 +1,5 @@
 /* navbar */
 
-.img_donar {
-    width: 20px;
-    height: 15px;
-    position: absolute;
-    z-index: 12;
-    top: 5px;
-    left: 35px;
-}
-
 .bandera {
     position: absolute;
     right: 30px;

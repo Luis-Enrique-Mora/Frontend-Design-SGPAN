@@ -1,0 +1,14 @@
+body {
+    background-image: url(../img/6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.color_boton {
+    background-color: #0D8E95;
+}
+
+.texto {
+    color: #774F38;
+}
