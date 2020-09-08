@@ -86,7 +86,7 @@ nav {
 
 #container-lotation {
   width: auto;
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 15px;
   text-align: center;
   position: relative;
@@ -127,6 +127,8 @@ nav {
 
 #location-title {
   color: #774f38;
+  font-size: 60px;
+  text-align: center;
 }
 
 #products-services-list > hr {
@@ -168,8 +170,12 @@ nav {
   top: 0;
   width: 150px;
   height: auto;
-  margin-left: 18px;
+  margin-left: 20px;
   margin-bottom: 13px;
+}
+.row :hover{
+  transform:scale(1.10) ;
+  box-shadow: 0 0 40px -10px rgb(0, 0, 0, 0, 00.27);
 }
 
 #img {
