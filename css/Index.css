@@ -148,12 +148,21 @@ nav {
 /* */
 
 #container-lotation {
+<<<<<<< HEAD
     width: auto;
     margin-top: 10px;
     margin-bottom: 15px;
     text-align: center;
     position: relative;
     height: 490px;
+=======
+  width: auto;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  text-align: center;
+  position: relative;
+  height: 600px;
+>>>>>>> f96e879010502d14583a134a416c94f5db85b0e5
 }
 
 #map-responsive {
@@ -184,6 +193,7 @@ nav {
     }
 }
 
+<<<<<<< HEAD
 #container-lotation>hr {
     margin-bottom: 30px;
 }
@@ -240,6 +250,63 @@ nav {
 #EfectoHoverProductosServicios :hover {
     transform: scale(1.10);
     box-shadow: 0 0 40px -10px rgb(0, 0, 0, 0, 00.27);
+=======
+#container-lotation > hr {
+  margin-bottom: 50px;
+}
+
+#location-title {
+  color: #774f38;
+  text-align: center;
+}
+
+
+#products-services-list > hr {
+  margin-bottom: 50px;
+}
+
+#products-services-list > h1 {
+  color: #774f38;
+  text-align: center;
+}
+
+.texto_Productos {
+ color: #161616;
+  text-align: center;
+  /*font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif; */
+  font-size: 18px;
+  margin-top: 6px;
+}
+
+#TextoProductos {
+  color: #000000;
+ /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+  text-align: center;
+  font-size: 10px;
+  margin-right: 3px;
+  margin-left: 4px;
+}
+
+#dimesion {
+  margin-right: 0px;
+  box-sizing: border-box;
+  display: flex;
+  /*background-color: #89bab8; */
+  border-radius: 10px;
+  transform: translateY(-25);
+  box-shadow: 0 0px 0px;
+  transition: all 0.25s;
+  cursor: pointer;
+  top: 0;
+  width: 150px;
+  height: auto;
+  margin-left: 20px;
+  margin-bottom: 13px;
+}
+#EfectoHoverProductosServicios :hover{
+  transform:scale(1.06) ;
+  box-shadow: 0 0 0px -10px rgb(0, 0, 0, 0, 00.27);
+>>>>>>> f96e879010502d14583a134a416c94f5db85b0e5
 }
 
 #img {
@@ -257,13 +324,26 @@ nav {
 }
 
 #products-services-container {
+<<<<<<< HEAD
     background: -webkit-linear-gradient( right, rgba(255, 254, 254, 0.993), rgb(232, 226, 233), #60c7d4);
     padding-bottom: 50px;
     padding-top: 80px;
     overflow: hidden;
     border-radius: 0px;
     box-shadow: 0 0px 20px #89bab8;
+=======
+  background: rgba(245, 245, 245);
+    
+ 
 }
+ /* padding-bottom: 50px;
+  padding-top: 80px;
+  overflow: hidden;
+  border-radius: 0px;
+  box-shadow: 0 0px 20px #89bab8;
+>>>>>>> f96e879010502d14583a134a416c94f5db85b0e5
+}
+*/
 
 
 /* fin de css de productos & servicios y ubicacion  */
